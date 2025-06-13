@@ -31,9 +31,10 @@ func main() {
 	order := ibsync.MarketOrder("BUY", ibsync.StringToDecimal("1"))
 	trade := ib.PlaceOrder(cccmf, order)
 
-	<-trade.Done()
+	<-trade.Done() // Will become stuck here if the order submission fails with an error
+	// time.Sleep(5 * time.Second) // Wait for the trade to complete
 
-	fmt.Printf("%d Trade Logs:\n", len(trade.Logs()))
+	fmt.Printf("%d Trade Logs:\n", len(trade.Logs())) // No error logs present even if the order is rejected
 	for _, log := range trade.Logs() {
 		fmt.Printf("  - %#v\n", log)
 	}
