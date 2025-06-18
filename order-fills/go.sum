@@ -13,14 +13,10 @@ github.com/robaho/fixed v0.0.0-20250130054609-fd0e46fcd988/go.mod h1:gOuZr6norIE
 github.com/rs/xid v1.6.0/go.mod h1:7XoLgs4eV+QndskICGsho+ADou8ySMSjJKDIan90Nz0=
 github.com/rs/zerolog v1.34.0 h1:k43nTLIwcTVQAncfCw4KZ2VY6ukYoZaBPNOE8txlOeY=
 github.com/rs/zerolog v1.34.0/go.mod h1:bJsvje4Z08ROH4Nhs5iH600c3IkWhwp44iRc54W6wYQ=
-github.com/scmhub/ibapi v0.10.37 h1:JwRNwxo2xAmizMD05uLWW+AY8ngsEwtGcnD4d0BLPN0=
-github.com/scmhub/ibapi v0.10.37/go.mod h1:/SW/xjAIG/7f/Deu6joy025myq3SpWn458puaZGO30Y=
 github.com/scmhub/ibapi v0.10.38-0.20250613053643-7c47652f9452 h1:xwBlVOJdq6MsLtCZj4bAEmN/GW95Hb+wS0NYobKUv30=
 github.com/scmhub/ibapi v0.10.38-0.20250613053643-7c47652f9452/go.mod h1:/SW/xjAIG/7f/Deu6joy025myq3SpWn458puaZGO30Y=
-github.com/scmhub/ibsync v0.10.37 h1:gfgBT8oCGGbWjiyB3WZUWQ75mFAZWRSDiTtpP3w/+kg=
-github.com/scmhub/ibsync v0.10.37/go.mod h1:O12oi5Sm38rr+L3LThnQcrs2WcOSqG5sE9k/tV10XoI=
-github.com/scmhub/ibsync v0.10.38-0.20250613200806-b73d9c549a23 h1:mFMy6Z+pew9gSXCMl9bTfE++wy2PFE0NQioRQozQiaw=
-github.com/scmhub/ibsync v0.10.38-0.20250613200806-b73d9c549a23/go.mod h1:FGlBI6UE7ZaAZqMK9NoLAmv1kyk1TeBjSmhF/5vvfQ8=
+github.com/scmhub/ibsync v0.10.38-0.20250616060204-9e1e80336997 h1:xcu/s4xdLl73UT8NG8Lavu3A4Wgk2x/AcSra+d68XLE=
+github.com/scmhub/ibsync v0.10.38-0.20250616060204-9e1e80336997/go.mod h1:FGlBI6UE7ZaAZqMK9NoLAmv1kyk1TeBjSmhF/5vvfQ8=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=

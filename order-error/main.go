@@ -27,9 +27,9 @@ func main() {
 	}
 	defer ib.Disconnect()
 
-	cccmf := ibsync.NewStock("CCCMF", "SMART", "USD")
+	nvda := ibsync.NewStock("NVDA", "NASDAQ", "USD")
 	order := ibsync.MarketOrder("BUY", ibsync.StringToDecimal("1"))
-	trade := ib.PlaceOrder(cccmf, order)
+	trade := ib.PlaceOrder(nvda, order)
 
 	<-trade.Done() // Will become stuck here if the order submission fails with an error
 	// time.Sleep(5 * time.Second) // Wait for the trade to complete
